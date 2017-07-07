@@ -31,7 +31,7 @@ namespace tuples
             }
 
             Console.WriteLine($"Items sold today: {totalProducts}");
-            Console.WriteLine($"Total Revenue for today: ${totalRevenue}");
+            Console.WriteLine($"Total Revenue for today: {totalRevenue:C}");
         }
     }
 }
