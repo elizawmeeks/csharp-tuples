@@ -27,7 +27,7 @@ namespace tuples
                 // Iterate over the list of tuples and calculate how many total products you sold today, and what your total revenue was.
                 // Logic goes here to look up quantity and amount in each transaction
                 totalProducts = totalProducts + t.quantity;
-                totalRevenue = totalRevenue + t.amount;
+                totalRevenue = totalRevenue + t.amount*t.quantity;
             }
 
             Console.WriteLine($"Items sold today: {totalProducts}");
